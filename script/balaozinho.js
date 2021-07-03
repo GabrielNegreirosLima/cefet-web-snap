@@ -1,7 +1,5 @@
 const balaozinhoEl = document.querySelector("#balaozinho");
-const marcacoes = document.querySelectorAll(".marcacao");
-
-console.log(marcacoes)
+let marcacoes = document.querySelectorAll(".marcacao");
 
 marcacoes.forEach(el => {
     el.addEventListener("mouseover", e => {
